@@ -50,6 +50,8 @@ dev_dependencies:
   sizer: ^2.0.15
   google_fonts: ^4.0.4
   country_picker: ^2.0.20
+  pinput: ^2.2.31
+
 
 
 
