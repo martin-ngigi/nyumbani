@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nyumbani/pages/auth/login_page.dart';
 import 'package:nyumbani/pages/auth/otp_page.dart';
 import 'package:nyumbani/pages/auth/phone_page.dart';
 import 'package:nyumbani/pages/auth/register_page.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Sizer',
           theme: ThemeData.light(),
-          home: RegisterPage(),
+          home: LoginPage(),
         );
       },
     );  }
