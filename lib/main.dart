@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nyumbani/pages/auth/otp_page.dart';
 import 'package:nyumbani/pages/auth/phone_page.dart';
+import 'package:nyumbani/pages/auth/register_page.dart';
 import 'package:nyumbani/pages/welcome_page.dart';
 import 'package:sizer/sizer.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Sizer',
           theme: ThemeData.light(),
-          home: OTPPage(verificationId: "12345") ,
+          home: RegisterPage(),
         );
       },
     );  }
