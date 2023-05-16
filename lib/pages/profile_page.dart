@@ -32,7 +32,7 @@ class _ProfilePageState extends State<ProfilePage> {
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Text(
-                "Nyumbani",
+                "Nyumbani [Profile]",
                 style: GoogleFonts.tangerine(
                   textStyle: Theme.of(context).textTheme.headline4,
                   fontSize: 20,

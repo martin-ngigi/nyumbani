@@ -5,6 +5,7 @@ import 'package:nyumbani/pages/auth/phone_page.dart';
 import 'package:nyumbani/pages/auth/register_page.dart';
 import 'package:nyumbani/pages/home/dashboard_page.dart';
 import 'package:nyumbani/pages/profile_page.dart';
+import 'package:nyumbani/pages/settings_page.dart';
 import 'package:nyumbani/pages/welcome_page.dart';
 import 'package:sizer/sizer.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
           title: 'Sizer',
           theme: ThemeData.light(),
           // home: DashboardPage(),
-          home: ProfilePage(),
+          home: SettingsPage(),
         );
       },
     );  }
