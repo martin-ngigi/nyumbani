@@ -3,6 +3,8 @@ import 'package:nyumbani/pages/auth/login_page.dart';
 import 'package:nyumbani/pages/auth/otp_page.dart';
 import 'package:nyumbani/pages/auth/phone_page.dart';
 import 'package:nyumbani/pages/auth/register_page.dart';
+import 'package:nyumbani/pages/home/dashboard_page.dart';
+import 'package:nyumbani/pages/profile_page.dart';
 import 'package:nyumbani/pages/welcome_page.dart';
 import 'package:sizer/sizer.dart';
 
@@ -22,7 +24,8 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Sizer',
           theme: ThemeData.light(),
-          home: LoginPage(),
+          // home: DashboardPage(),
+          home: DashboardPage(),
         );
       },
     );  }

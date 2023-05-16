@@ -1,11 +1,10 @@
 import 'dart:ui';
 
 class ConstantColors{
-  static const String primaryColor = "";
-  static const String secondaryColor = "";
 
-  static final textColor = const Color(0xFFccc7c5);
+  static final textColor = const Color(0xff9a9897);
   static final mainColor = const Color(0xFF03A403);
+  static final secondaryColor = const Color(0xFF07E0FF);
   static final whiteColor = const Color(0xFFFFFFFF);
   static final iconColor1 = const Color(0xFFffd28d);
   static final iconColor2 = const Color(0xFFfcab88);
