@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nyumbani/utils/constant_colors.dart';
 import 'package:sizer/sizer.dart';
-import '../../widgets/search_field.dart';
+import '../../../widgets/search_field.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

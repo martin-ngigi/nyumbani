@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           title: 'Sizer',
           theme: ThemeData.light(),
           // home: DashboardPage(),
-          home: DashboardPage(),
+          home: ProfilePage(),
         );
       },
     );  }
